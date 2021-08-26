@@ -1,5 +1,5 @@
 # BorneoHomestay
-A project done during two courses (smae lecturer for both courses). 
+A project done during two courses (same lecturer for both courses). 
 <br> The first part was just a simple CSS implementation (I think?), and then the later course includes building a functional website using PHP and HTML/CSS.
 
 ## Background Story
