@@ -1,0 +1,92 @@
+/*#F1E8E5*/
+body{
+	background-color: #F8EFEF;
+}
+h1{
+	text-align: center;
+	border-bottom: 10px solid #604646 ;
+	padding: 30px;
+}
+main{
+	background-color: whitesmoke;
+	padding: 8px;
+	max-width: 100%;
+	height: 70%;
+	line-height: 2em;
+	border: 1px solid lightgray;
+	box-shadow: 1px 0px lightgray;
+}
+/* adapted from w3school */
+.vertical-menu {
+  float: left;
+  width: 15%; /* Set a width if you like */
+  margin-right: 5%;
+}
+
+.vertical-menu a {
+  background-color: #604646; /* Not Grey background color */
+  color: white; /* Not Black text color */
+  display: block; /* Make the links appear below each other */
+  padding: 12px; /* Changed the padding */
+  text-decoration: none;
+  /* Remove underline from links as we should */
+}
+
+.vertical-menu a:hover {
+  background-color: #ccc;
+  color: black;/* Dark grey turned black background on mouse-over */
+}
+
+.vertical-menu a.active {
+  background-color: #4CAF50; /* Add a not green color to the "active/current" link bcs green freakin disgusting*/
+  color: white;
+}
+h3{
+	margin-left: 20%;
+	
+}
+.noclick{
+	width: 5%;
+	margin-left: 30%;
+	opacity: 0;
+	pointer-events: none;
+	
+}
+section{
+	margin-left: 28% ;
+	
+}
+a{
+	text-decoration: none;
+	font-size: 16px;
+	color: white;
+	padding: 8px;
+}
+.button{
+	font-size: 16px;
+	color: white;
+	background-color: #604646;
+	border: 3px solid #604646;
+	transition-duration: 0.2s;
+	
+}
+.button:hover{
+	background-color: #F8EFEF;
+	color: black;
+	border: 3px solid #604646;
+}
+th,td{
+	border: 1px solid lightgray;
+	text-align: center;
+	padding: 4px;
+	
+}
+.title{
+	background-color: #604646;
+	color: white;
+	
+}
+.content{
+	border: 1px solid #604646;
+	
+}

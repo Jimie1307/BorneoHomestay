@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<meta charset='UTP-8'>
+<html>
+<title> Homepage </title>
+<head>
+<link rel="stylesheet" href="homestayWebEng.css?v=<?php echo time(); ?>">
+</head>
+<header><h1 ><a href="index.php"><img class="home" src="homestay.png"></img></a> &nbsp ~Borneo Homestay~</h1> </header>
+ <body>
+ <h2> REGISTRATION </h2>
+ <main style=" padding-bottom: 5%; background-color: white; margin-top: -3.5%;">
+    <form action="register_action.php" method="POST">
+      <p> Name: </p> <input type= "text" name="guestName" placeholder="Enter your name" required>
+	  <p> Email: </p> <input type= "email" name="guestEmail" placeholder="Enter your email" required>
+	  <p> Password: </p> <input type= "password" name="guestPwd" placeholder="********" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{0,12}" title= "Must contain at least: one number, one uppercase, one lowercase. Not more than 12 characters!" required>
+	  <br><br> <input style=" width: 5%; margin-left: 30%; opacity: 0; pointer-events: none;" type="text" name="userType" value="1"> </input>
+	  
+	  <input style=" margin-left: -35%;" class="sub" id="submitRegister" type= "submit" value="Submit" placeholder="Submit">&nbsp
+	  <input  class="sub" id="resetRegister" type= "reset" value="Reset" placeholder="Reset"> <br>
+		<a class="login" href="login.html"> Have an account? </a><br>
+		<div id="message">
+	</form>
+	<br><br>
+	</main>
+ </body>
+</html>
+
+<footer style="font-size: 10px"><i>Copyright&copy 2020 Wan Norazlin Binti Abdullah</i></footer>
+<footer style="font-size: 12px" >Icons made by <a class="foot" style="font-size: 12px" class="p attribute" href="https://www.flaticon.com/authors/flat-icons" title="Flat Icons">Flat Icons</a>&nbsp from <a class="foot" style="font-size: 12px" class="p attribute" href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a></footer>

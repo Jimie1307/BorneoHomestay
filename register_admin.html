@@ -1,0 +1,40 @@
+<?php
+
+session_start();
+include("config.php");
+
+?>
+
+<html>
+<title> ADMIN <3 </title>
+<meta charset='UTF-8'>
+<head> 
+<link rel="stylesheet" href="admin.css?v=<?php echo time(); ?>">
+</head>
+
+<header> <h1> ADMIN PAGE </h1> </header>
+<body>
+<nav class="vertical-menu">
+<a href="admin_index.php"> HOME </a> 
+<a href="admin_request.php"> REQUEST </a>
+<a href="admin_report.php"> REPORT </a>
+<a href="admin_setting.php"> SETTING </a>
+<a href="logout.php"> LOGOUT </a>
+</nav>
+<main>
+
+ <h2 style=" margin-left: 45%; text-decoration: overline underline;"> REGISTER ADMIN</h2>
+    <form style="margin-left: 45%;" action="register_action.php" method="POST">
+      <p> Name: </p> <input type= "text" name="guestName" placeholder="e.g: jiminie" required>
+	  <p> Email: </p> <input type= "email" name="guestEmail" placeholder=" e.g: ouioui@domain.com" required>
+	  <br><br> <input style=" width: 5%; margin-left: 30%; opacity: 0; pointer-events: none;" type="text" name="userType" value="2"> </input>
+	  
+	  <input style=" padding: 6px; cursor:pointer; margin-left: -35%;" class="button" type= "submit" value="Submit" placeholder="Submit">&nbsp
+	  <input  style="padding: 6px; cursor:pointer;" class="button" type= "reset" value="Reset" placeholder="Reset"> <br>
+		
+		<div id="message">
+	</form>
+	<br><br>
+	</main>
+ </body>
+</html>
